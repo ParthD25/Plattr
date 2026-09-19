@@ -2,7 +2,7 @@
 
 **Know what's behind every bite.** Scan a food's QR code or barcode and see its **product passport** — farm origin, soil, water, feed and grazing, space and welfare, animal health history, certifications, safety testing, a parasite and hazard outlook for the sourcing region, and nutrition — plus a transparent 0-100 **Plattr score** graded A+ to F. Shoppers sign in to get allergen and health-condition warnings, a grocery history with an overall score, and a map of where their food came from. Producers sign in to publish their farm data and create passports with a QR code for the pack. Every fact carries a text label saying how well it is backed up, so a producer's own statement never passes as a verified record.
 
-Built for HackCMU 2026, for parents, older shoppers and people managing a health condition. Plattr is a student prototype: **the product passports in the demo are fictional SAMPLE data** (see [What is real vs sample](#what-is-real-vs-sample)).
+Built for parents, older shoppers and people managing a health condition. Plattr is a student prototype: **the product passports in the demo are fictional SAMPLE data** (see [What is real vs sample](#what-is-real-vs-sample)).
 
 ## What shoppers can do
 
