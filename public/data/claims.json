@@ -1,0 +1,230 @@
+{
+  "about": "What each beef claim means, where the meaning comes from, and the caveat Plattr always shows with it. Every 'quote' is checked verbatim against the snapshot in 'snapshot' by the team's quote-checking script ('snapshot' names the archived source file it was checked against; the script and the archive are kept in the team's working repository). A rancher cannot edit or remove a caveat.",
+  "retrieved": "2026-09-19",
+  "levels": {
+    "usda_program": "Listed in a USDA program directory. Names what was audited; covers the listed company, not a ranch unless the ranch itself is listed.",
+    "certifier_listed": "Appears in the certifier's own public list, opened and checked by a Plattr moderator on the date shown. Plattr links out and does not copy the list.",
+    "document_on_file": "The rancher supplied a document. Plattr has not audited it.",
+    "rancher_declared": "The rancher's own statement. Plattr has not verified it."
+  },
+  "claims": [
+    {
+      "key": "grass_fed",
+      "label": "Grass-fed",
+      "is_binding_law": false,
+      "quote": "These claims may be applied to meat and meat product labels derived from cattle that were only (100%) fed forage (e.g., grass) after being weaned from their mother's milk. This means such animals are never confined to a feedlot.",
+      "source": "FSIS Guideline on Substantiating Animal-Raising or Environment-Related Labeling Claims, FSIS-GD-2024-0006 (Aug 2024)",
+      "url": "https://www.usda.gov/sites/default/files/guidance-documents/FSIS.%20FSIS%20Guideline%20on%20Substantiating%20Animal-Raising%20or%20Environment-Related%20Labeling%20Claims.pdf",
+      "snapshot": "raw/usda/FSIS-GD-2024-0006.txt",
+      "caveat": "This is FSIS guidance, not law. Grass-finished is a different claim: FSIS says grass-finished animals can be fed grain.",
+      "form_questions": [
+        "ever_fed_grain",
+        "ever_in_feedlot"
+      ]
+    },
+    {
+      "key": "grass_finished",
+      "label": "Grass-finished",
+      "is_binding_law": false,
+      "quote": "which is not synonymous with \"Grass Fed.\" Animals that are \"Grass Finished\" can be fed grain",
+      "source": "FSIS-GD-2024-0006 (Aug 2024)",
+      "url": "https://www.usda.gov/sites/default/files/guidance-documents/FSIS.%20FSIS%20Guideline%20on%20Substantiating%20Animal-Raising%20or%20Environment-Related%20Labeling%20Claims.pdf",
+      "snapshot": "raw/usda/FSIS-GD-2024-0006.txt",
+      "caveat": "FSIS guidance, not law. Grass-finished does not mean the animal never ate grain."
+    },
+    {
+      "key": "no_added_hormones",
+      "label": "No added hormones",
+      "is_binding_law": false,
+      "quote": "The term \"no hormones administered\" may be approved for use on the label of beef products if sufficient documentation is provided to the Agency by the producer showing no hormones have been used in raising the animals.",
+      "source": "USDA FSIS, Meat and Poultry Labeling Terms",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/meat-and-poultry-labeling-terms",
+      "snapshot": "raw/fsis/meat-and-poultry-labeling-terms.html",
+      "caveat": "Hormone implants are legal in US beef cattle, so this claim means something for beef. The documentation a producer gives FSIS is not public, and Plattr has no way to check it.",
+      "form_questions": [
+        "implants"
+      ]
+    },
+    {
+      "key": "raised_without_antibiotics",
+      "label": "Raised without antibiotics",
+      "is_binding_law": false,
+      "quote": "To use this claim, source animals cannot be administered antibiotics in their feed, water, or by injections at any point in the production process. This includes ionophores, which are recognized as antibiotics by FSIS.",
+      "source": "FSIS-GD-2024-0006 (Aug 2024)",
+      "url": "https://www.usda.gov/sites/default/files/guidance-documents/FSIS.%20FSIS%20Guideline%20on%20Substantiating%20Animal-Raising%20or%20Environment-Related%20Labeling%20Claims.pdf",
+      "snapshot": "raw/usda/FSIS-GD-2024-0006.txt",
+      "caveat": "FSIS guidance, not law. A 2024 USDA study of the market as a whole - not of this ranch - reported: \"The study found antibiotic residues in approximately 20% of samples tested from the 'Raised Without Antibiotics' market.\"",
+      "caveat_quote": "The study found antibiotic residues in approximately 20% of samples tested from the \"Raised Without Antibiotics\" market.",
+      "caveat_source": "USDA press release, 28 Aug 2024",
+      "caveat_url": "https://www.usda.gov/about-usda/news/press-releases/2024/08/28/usda-releases-updated-guideline-strengthen-substantiation-animal-raising-and-environment-related",
+      "caveat_snapshot": "raw/usda/press-2024-08-28.html",
+      "form_questions": [
+        "ionophores"
+      ]
+    },
+    {
+      "key": "pasture_raised",
+      "label": "Pasture-raised",
+      "is_binding_law": false,
+      "quote": "are strongly encouraged to provide additional written documentation describing that the animals are raised on pasture the majority of their life span from birth until slaughter",
+      "source": "FSIS-GD-2024-0006 (Aug 2024)",
+      "url": "https://www.usda.gov/sites/default/files/guidance-documents/FSIS.%20FSIS%20Guideline%20on%20Substantiating%20Animal-Raising%20or%20Environment-Related%20Labeling%20Claims.pdf",
+      "snapshot": "raw/usda/FSIS-GD-2024-0006.txt",
+      "caveat": "There is no federal definition of pasture-raised. By itself it does not say what the animal was fed."
+    },
+    {
+      "key": "organic",
+      "label": "USDA Organic",
+      "is_binding_law": true,
+      "quote": "Ruminant animals must be grazed throughout the entire grazing season for the geographical region, which shall be not less than 120 days per calendar year.",
+      "source": "7 CFR 205.237(c)(1), eCFR as of 2026-09-16",
+      "url": "https://www.ecfr.gov/current/title-7/section-205.237",
+      "snapshot": "raw/ecfr/t7_205.237.xml",
+      "caveat": "Binding regulation. Shown as certified only after a moderator finds the operation in USDA's Organic INTEGRITY database by hand; that database has no public API.",
+      "check": "https://organic.ams.usda.gov/integrity/"
+    },
+    {
+      "key": "welfare_certified",
+      "label": "Humanely raised / welfare certified",
+      "is_binding_law": false,
+      "quote": "LPDS will only approve an animal welfare claim if a statement is provided on the label showing the name of the entity that established the standard",
+      "source": "FSIS-GD-2024-0006 (Aug 2024)",
+      "url": "https://www.usda.gov/sites/default/files/guidance-documents/FSIS.%20FSIS%20Guideline%20on%20Substantiating%20Animal-Raising%20or%20Environment-Related%20Labeling%20Claims.pdf",
+      "snapshot": "raw/usda/FSIS-GD-2024-0006.txt",
+      "caveat": "FSIS does not define animal-welfare claims. The meaning is whatever the named certifier's standard says; a certification may cover only some products."
+    },
+    {
+      "key": "born_raised_usa",
+      "label": "Born and raised in the USA / Product of USA",
+      "is_binding_law": true,
+      "quote": "may be used under generic approval on labels to designate single ingredient products derived from animals born, raised, slaughtered, and processed in the United States",
+      "source": "9 CFR 412.3(a), eCFR as of 2026-07-20",
+      "url": "https://www.ecfr.gov/current/title-9/section-412.3",
+      "snapshot": "raw/ecfr/t9_412.3.xml",
+      "caveat": "On a package this is a voluntary label claim; the supporting records are kept by the establishment and are not public. Plattr can check only that the declared plant is a US federally inspected establishment. Born and raised remain the rancher's words."
+    },
+    {
+      "key": "natural",
+      "label": "Natural",
+      "is_binding_law": false,
+      "raising_claim": false,
+      "quote": "A product containing no artificial ingredient or added color and is only minimally processed.",
+      "source": "USDA FSIS, Meat and Poultry Labeling Terms",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/meat-and-poultry-labeling-terms",
+      "snapshot": "raw/fsis/meat-and-poultry-labeling-terms.html",
+      "caveat": "This describes processing, not how the animal was raised."
+    },
+    {
+      "key": "breed",
+      "label": "Breed (for example Angus)",
+      "is_binding_law": false,
+      "raising_claim": false,
+      "caveat": "Describes breed or carcass characteristics. It does not describe how the animal was raised."
+    },
+    {
+      "key": "regenerative",
+      "label": "Regenerative",
+      "is_binding_law": false,
+      "caveat": "There is no federal definition of regenerative. FSIS encourages third-party certification for environment-related claims."
+    },
+    {
+      "key": "local",
+      "label": "Local",
+      "is_binding_law": false,
+      "raising_claim": false,
+      "caveat": "No labeling standard exists for local."
+    }
+  ],
+  "label_rules": [
+    {
+      "key": "ground_beef",
+      "label": "Ground beef",
+      "is_binding_law": true,
+      "quote": "shall not contain more than 30 percent fat, and shall not contain added water, phosphates, binders, or extenders",
+      "source": "9 CFR 319.15(a), eCFR as of 2026-07-20",
+      "url": "https://www.ecfr.gov/current/title-9/section-319.15",
+      "snapshot": "raw/ecfr/t9_319.15.xml",
+      "detect": [
+        "ground beef",
+        "chopped beef"
+      ]
+    },
+    {
+      "key": "mechanically_tenderized",
+      "label": "Mechanically tenderized beef",
+      "is_binding_law": true,
+      "quote": "the product name for a raw or partially cooked beef product that has been mechanically tenderized, whether by needle or by blade, must contain the term \"mechanically tenderized,\" \"needle tenderized,\" or \"blade tenderized,\"",
+      "source": "9 CFR 317.2(e)(3), eCFR as of 2026-07-20",
+      "url": "https://www.ecfr.gov/current/title-9/section-317.2",
+      "snapshot": "raw/ecfr/t9_317.2.xml",
+      "detect": [
+        "mechanically tenderized",
+        "blade tenderized",
+        "needle tenderized"
+      ]
+    },
+    {
+      "key": "custom_exempt",
+      "label": "Custom-exempt beef (no EST number)",
+      "is_binding_law": true,
+      "quote": "The custom prepared products are plainly marked \"Not for Sale\"",
+      "source": "9 CFR 303.1(a)(2)(iii), eCFR as of 2026-07-20",
+      "url": "https://www.ecfr.gov/current/title-9/section-303.1",
+      "snapshot": "raw/ecfr/t9_303.1.xml"
+    },
+    {
+      "key": "cattle_id_not_public",
+      "label": "Cattle ID tags exist - the records are not public",
+      "is_binding_law": true,
+      "quote": "beginning November 5, 2024, all official eartags sold for or applied to cattle and bison must be readable both visually and electronically (EID)",
+      "source": "9 CFR 86.4(a)(1)(i), eCFR as of 2026-07-20",
+      "url": "https://www.ecfr.gov/current/title-9/section-86.4",
+      "snapshot": "raw/ecfr/t9_86.4.xml",
+      "caveat": "Official ID is required only for certain cattle moving between states. The records are held by animal-health officials. There is no public lookup, and nothing links a tag to an establishment number or to a package."
+    },
+    {
+      "key": "uncured",
+      "label": "\"Uncured\" and \"No Nitrate or Nitrite Added\"",
+      "is_binding_law": true,
+      "quote": "may be prepared without nitrate or nitrite and labeled with such standard name when immediately preceded with the term \"Uncured\"",
+      "source": "9 CFR 319.2 (see also 9 CFR 317.17), eCFR as of 2026-07-20",
+      "url": "https://www.ecfr.gov/current/title-9/section-319.2",
+      "snapshot": "raw/ecfr/t9_319.2.xml",
+      "caveat": "The rule is about added sodium or potassium nitrate and nitrite. Ingredients such as celery powder can be listed on a product labeled Uncured; the label tells you they are present, not how much nitrite they contribute.",
+      "detect": [
+        "uncured",
+        "celery powder",
+        "celery juice",
+        "cultured celery"
+      ]
+    },
+    {
+      "key": "nitrite",
+      "label": "Sodium nitrite (curing)",
+      "is_binding_law": true,
+      "quote": "The use of nitrites, nitrates or combination shall not result in more than 200 ppm of nitrite, calculated as sodium nitrite in finished product",
+      "source": "9 CFR 424.21(c), eCFR as of 2026-07-20",
+      "url": "https://www.ecfr.gov/current/title-9/section-424.21",
+      "snapshot": "raw/ecfr/t9_424.21.xml",
+      "caveat": "The label tells you nitrite is present, not how much was used.",
+      "detect": [
+        "sodium nitrite",
+        "potassium nitrite"
+      ]
+    },
+    {
+      "key": "phosphates",
+      "label": "Phosphates",
+      "is_binding_law": true,
+      "quote": "0.5 percent of phosphate in meat food product",
+      "source": "9 CFR 424.21(c), eCFR as of 2026-07-20",
+      "url": "https://www.ecfr.gov/current/title-9/section-424.21",
+      "snapshot": "raw/ecfr/t9_424.21.xml",
+      "caveat": "Ground beef itself may not contain added phosphates (9 CFR 319.15); other meat products may, up to this limit.",
+      "detect": [
+        "phosphate"
+      ]
+    }
+  ],
+  "floor": "No public record links a beef package to the ranch or feedlot that raised the animal. The establishment number identifies the plant. Everything below this line is what a rancher told us, in their own words, dated and unverified."
+}

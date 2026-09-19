@@ -1,0 +1,1426 @@
+{
+ "note": "SAMPLE product passports for the demo. Farms are fictional; nutrition figures are typical USDA reference values. Hazard notes are general background, not a live surveillance feed.",
+ "passports": [
+  {
+   "id": "strawberry-riverbend",
+   "barcode": "0850001000011",
+   "sample": true,
+   "name": "Organic Strawberry",
+   "tagline": "Sweet fruit. A healthier future.",
+   "emoji": "🍓",
+   "category": "produce",
+   "food_group": "fruits",
+   "price_usd": 5.49,
+   "badges": [
+    "Organic",
+    "Non-GMO",
+    "USDA Organic",
+    "Fair Trade"
+   ],
+   "farm": {
+    "name": "Riverbend Farms (sample)",
+    "city": "Watsonville",
+    "state": "California",
+    "country": "USA",
+    "lat": 36.9102,
+    "lon": -121.7569,
+    "acres": 42,
+    "markets": [
+     "Santa Cruz Downtown Farmers Market",
+     "Monterey Bay Certified Farmers Market"
+    ],
+    "about": "Third-generation berry growers on the Pajaro Valley floor."
+   },
+   "origin": [
+    {
+     "label": "Farm",
+     "value": "Riverbend Farms, Watsonville, California, USA",
+     "evidence": "verified",
+     "source": "Producer account + county parcel record"
+    },
+    {
+     "label": "Field and lot",
+     "value": "Block 7 · lot RB-0917",
+     "evidence": "verified",
+     "source": "Harvest log matched to certifier inspection record",
+     "date": "2026-09-14"
+    },
+    {
+     "label": "Harvested",
+     "value": "14 Sep 2026 · packed same day",
+     "evidence": "document",
+     "source": "Pack-house record",
+     "date": "2026-09-14"
+    }
+   ],
+   "soil": [
+    {
+     "label": "Organic matter",
+     "value": "High: 4.8 %",
+     "evidence": "verified",
+     "source": "Soil lab report, confirmed in the organic certifier's inspection record",
+     "date": "2026-03-02"
+    },
+    {
+     "label": "pH",
+     "value": "6.4",
+     "evidence": "verified",
+     "source": "Soil lab report, confirmed in the organic certifier's inspection record",
+     "date": "2026-03-02"
+    },
+    {
+     "label": "Fertilizers",
+     "value": "Composted green waste, fish emulsion",
+     "evidence": "document",
+     "source": "Farm record"
+    },
+    {
+     "label": "Pesticides",
+     "value": "OMRI-listed only; last application 21 days before harvest",
+     "evidence": "document",
+     "source": "Spray log",
+     "date": "2026-08-24"
+    }
+   ],
+   "water": [
+    {
+     "label": "Source",
+     "value": "On-farm well, drip irrigation",
+     "evidence": "document",
+     "source": "Farm record"
+    },
+    {
+     "label": "Last test",
+     "value": "Generic E. coli: none detected",
+     "evidence": "verified",
+     "source": "Water lab report, confirmed in the GAP audit record",
+     "date": "2026-08-11"
+    },
+    {
+     "label": "Result",
+     "value": "Meets pre-harvest agricultural water criteria",
+     "evidence": "verified",
+     "source": "Water lab report, confirmed in the GAP audit record",
+     "date": "2026-08-11"
+    }
+   ],
+   "feed": [],
+   "animal_welfare": [],
+   "health_history": [],
+   "certifications": [
+    {
+     "label": "USDA Organic",
+     "value": "Certified operation",
+     "evidence": "verified",
+     "source": "USDA Organic INTEGRITY listing, checked by hand",
+     "url": "https://organic.ams.usda.gov/integrity/",
+     "date": "2026-09-10"
+    },
+    {
+     "label": "Non-GMO Project",
+     "value": "Verified",
+     "evidence": "verified",
+     "source": "Certifier listing"
+    },
+    {
+     "label": "Fair Trade",
+     "value": "Certified",
+     "evidence": "verified",
+     "source": "Certifier listing"
+    },
+    {
+     "label": "Food safety audit",
+     "value": "GAP audit passed",
+     "evidence": "document",
+     "source": "Audit certificate",
+     "date": "2026-05-20"
+    }
+   ],
+   "safety": [
+    {
+     "label": "Recalls",
+     "value": "No FDA recall found for this farm",
+     "evidence": "verified",
+     "source": "openFDA food enforcement search",
+     "url": "https://open.fda.gov/apis/food/enforcement/",
+     "date": "2026-09-19"
+    },
+    {
+     "label": "Pathogen testing",
+     "value": "Pre-shipment test: negative",
+     "evidence": "verified",
+     "source": "Third-party lab, result confirmed with the lab",
+     "date": "2026-09-14"
+    }
+   ],
+   "hazards": [
+    {
+     "name": "Cyclospora",
+     "kind": "parasite",
+     "regional_relevance": "Cyclospora outbreaks in the US are linked mostly to imported fresh produce; domestic California berries are rarely implicated.",
+     "likelihood": "low",
+     "outlook": "Cases peak in late spring and summer; low heading into fall.",
+     "what_the_farm_does": "Worker hygiene training and tested irrigation water.",
+     "source": "CDC, Cyclosporiasis",
+     "url": "https://www.cdc.gov/cyclosporiasis/"
+    }
+   ],
+   "nutrition": {
+    "serving": "1 cup, halves",
+    "serving_g": 152,
+    "per_serving": {
+     "kcal": 49,
+     "protein_g": 1,
+     "fat_g": 0.5,
+     "saturated_fat_g": 0,
+     "carbs_g": 11.7,
+     "fiber_g": 3,
+     "sugars_g": 7.4,
+     "sodium_mg": 2,
+     "cholesterol_mg": 0,
+     "vitamin_c_mg": 89,
+     "iron_mg": 0.6,
+     "calcium_mg": 24,
+     "potassium_mg": 233
+    }
+   },
+   "allergens": [],
+   "gluten_free": true,
+   "dietary": [
+    "vegan",
+    "halal",
+    "kosher"
+   ]
+  },
+  {
+   "id": "beef-sample-ridge",
+   "barcode": "0850001000028",
+   "sample": true,
+   "name": "Grass-Fed Ground Beef 85/15",
+   "tagline": "Pasture-raised in western Pennsylvania.",
+   "emoji": "🥩",
+   "category": "beef",
+   "food_group": "protein",
+   "price_usd": 9.99,
+   "badges": [
+    "Grass-fed",
+    "No added hormones",
+    "Pasture-raised"
+   ],
+   "farm": {
+    "name": "Sample Ridge Cattle Co. (sample)",
+    "city": "Butler",
+    "state": "Pennsylvania",
+    "country": "USA",
+    "lat": 40.8612,
+    "lon": -79.8953,
+    "acres": 180,
+    "markets": [
+     "Butler Farmers Market"
+    ],
+    "about": "About forty head of Angus-cross cattle on rotated pasture."
+   },
+   "est_number": "M9714",
+   "origin": [
+    {
+     "label": "Ranch",
+     "value": "Sample Ridge Cattle Co., Butler County, Pennsylvania",
+     "evidence": "declared"
+    },
+    {
+     "label": "Processing plant",
+     "value": "USDA EST. M9714 - a real FSIS record; the plant has no connection to this sample ranch",
+     "evidence": "verified",
+     "source": "USDA FSIS MPI Directory",
+     "url": "https://www.fsis.usda.gov/inspection/establishments/meat-poultry-and-egg-product-inspection-directory",
+     "date": "2026-09-19"
+    },
+    {
+     "label": "Lot",
+     "value": "SR-2026-031",
+     "evidence": "document",
+     "source": "Processor cut sheet",
+     "date": "2026-09-02"
+    }
+   ],
+   "soil": [],
+   "water": [
+    {
+     "label": "Source",
+     "value": "Spring-fed troughs and a farm pond",
+     "evidence": "declared"
+    },
+    {
+     "label": "Last test",
+     "value": "Coliform and nitrate within livestock guidelines",
+     "evidence": "document",
+     "source": "Water lab report",
+     "date": "2026-06-18"
+    }
+   ],
+   "feed": [
+    {
+     "label": "Grass-fed",
+     "value": "100 % forage after weaning; never in a feedlot",
+     "evidence": "declared"
+    },
+    {
+     "label": "Grazing time",
+     "value": "About 14 hours a day on pasture, Apr-Nov",
+     "evidence": "document",
+     "source": "RFID collar summary",
+     "date": "2026-08-31"
+    },
+    {
+     "label": "Winter feed",
+     "value": "Hay from own fields",
+     "evidence": "declared"
+    }
+   ],
+   "animal_welfare": [
+    {
+     "label": "Stocking density",
+     "value": "0.6 animal units per acre",
+     "evidence": "document",
+     "source": "Grazing plan",
+     "date": "2026-04-01"
+    },
+    {
+     "label": "Pasture per animal",
+     "value": "About 2 acres",
+     "evidence": "declared"
+    }
+   ],
+   "health_history": [
+    {
+     "label": "Veterinary record",
+     "value": "Herd health plan on file; last visit 12 Aug 2026",
+     "evidence": "document",
+     "source": "Vet report",
+     "date": "2026-08-12"
+    },
+    {
+     "label": "Antibiotics",
+     "value": "No treatments recorded for this lot",
+     "evidence": "declared"
+    },
+    {
+     "label": "Hormone implants",
+     "value": "None",
+     "evidence": "declared"
+    }
+   ],
+   "certifications": [
+    {
+     "label": "Beef Quality Assurance",
+     "value": "Owner trained",
+     "evidence": "declared"
+    }
+   ],
+   "safety": [
+    {
+     "label": "Plant recalls",
+     "value": "No FSIS recall naming EST. M9714 in notices since 2014",
+     "evidence": "verified",
+     "source": "USDA FSIS Recall API",
+     "url": "https://www.fsis.usda.gov/recalls",
+     "date": "2026-09-19"
+    }
+   ],
+   "hazards": [
+    {
+     "name": "Liver fluke (Fasciola hepatica)",
+     "kind": "parasite",
+     "regional_relevance": "Flukes need wet pasture and snails; present in parts of the eastern US but more common on the Gulf Coast and in the Pacific Northwest.",
+     "likelihood": "low",
+     "outlook": "Risk rises after wet summers; a dry fall keeps it low.",
+     "what_the_farm_does": "Fecal checks each spring; low-lying paddocks fenced off.",
+     "source": "Merck Veterinary Manual, Fasciola hepatica in ruminants",
+     "url": "https://www.merckvetmanual.com/"
+    },
+    {
+     "name": "Shiga toxin-producing E. coli (STEC)",
+     "kind": "bacteria",
+     "regional_relevance": "Cattle carry STEC naturally everywhere; grinding spreads surface bacteria through the meat, which is why ground beef is cooked to 160 F.",
+     "likelihood": "moderate",
+     "outlook": "Shedding by cattle is higher in warm months.",
+     "what_the_farm_does": "Hide-on carcass wash at the plant; FSIS samples raw ground beef.",
+     "source": "USDA FSIS, Ground Beef and Food Safety",
+     "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/meat-fish/ground-beef-and-food-safety"
+    }
+   ],
+   "nutrition": {
+    "serving": "4 oz raw",
+    "serving_g": 112,
+    "per_serving": {
+     "kcal": 240,
+     "protein_g": 21,
+     "fat_g": 17,
+     "saturated_fat_g": 7,
+     "carbs_g": 0,
+     "fiber_g": 0,
+     "sugars_g": 0,
+     "sodium_mg": 75,
+     "cholesterol_mg": 75,
+     "vitamin_c_mg": 0,
+     "iron_mg": 2.4,
+     "calcium_mg": 20,
+     "potassium_mg": 330
+    }
+   },
+   "allergens": [],
+   "gluten_free": true,
+   "dietary": []
+  },
+  {
+   "id": "romaine-valley-green",
+   "barcode": "0850001000035",
+   "sample": true,
+   "name": "Romaine Hearts",
+   "tagline": "Crisp hearts, three to a bag.",
+   "emoji": "🥬",
+   "category": "produce",
+   "food_group": "vegetables",
+   "price_usd": 4.29,
+   "badges": [
+    "Pesticide log shared"
+   ],
+   "farm": {
+    "name": "Valley Green Growers (sample)",
+    "city": "Salinas",
+    "state": "California",
+    "country": "USA",
+    "lat": 36.6777,
+    "lon": -121.6555,
+    "acres": 310,
+    "markets": [],
+    "about": "Leafy greens for regional grocers."
+   },
+   "origin": [
+    {
+     "label": "Farm",
+     "value": "Valley Green Growers, Salinas, California",
+     "evidence": "declared"
+    },
+    {
+     "label": "Harvested",
+     "value": "11 Sep 2026",
+     "evidence": "document",
+     "source": "Harvest log",
+     "date": "2026-09-11"
+    }
+   ],
+   "soil": [
+    {
+     "label": "Fertilizers",
+     "value": "Synthetic nitrogen, side-dressed",
+     "evidence": "declared"
+    },
+    {
+     "label": "Pesticides",
+     "value": "Conventional; pre-harvest interval followed",
+     "evidence": "declared"
+    },
+    {
+     "label": "Organic matter",
+     "value": "Not provided",
+     "evidence": "missing"
+    }
+   ],
+   "water": [
+    {
+     "label": "Source",
+     "value": "District canal water, sprinkler then drip",
+     "evidence": "declared"
+    },
+    {
+     "label": "Last test",
+     "value": "Generic E. coli 22 MPN/100 mL",
+     "evidence": "document",
+     "source": "Water lab report",
+     "date": "2026-08-28"
+    },
+    {
+     "label": "Distance to livestock",
+     "value": "1.4 miles to nearest cattle operation",
+     "evidence": "declared"
+    }
+   ],
+   "feed": [],
+   "animal_welfare": [],
+   "health_history": [],
+   "certifications": [
+    {
+     "label": "Leafy Greens Marketing Agreement",
+     "value": "Member handler",
+     "evidence": "verified",
+     "source": "LGMA member list"
+    }
+   ],
+   "safety": [
+    {
+     "label": "Recalls",
+     "value": "No FDA recall found for this farm",
+     "evidence": "verified",
+     "source": "openFDA food enforcement search",
+     "url": "https://open.fda.gov/apis/food/enforcement/",
+     "date": "2026-09-19"
+    },
+    {
+     "label": "Pathogen testing",
+     "value": "Not provided",
+     "evidence": "missing"
+    }
+   ],
+   "hazards": [
+    {
+     "name": "E. coli O157:H7",
+     "kind": "bacteria",
+     "regional_relevance": "The Salinas Valley has had repeated fall outbreaks tied to romaine; FDA links risk to nearby cattle and contaminated agricultural water.",
+     "likelihood": "elevated",
+     "outlook": "Risk is highest in the fall harvest window now under way.",
+     "what_the_farm_does": "Buffer distance from livestock; water tested monthly.",
+     "source": "FDA, Leafy Greens STEC Action Plan",
+     "url": "https://www.fda.gov/food/foodborne-pathogens/leafy-greens-stec-action-plan"
+    },
+    {
+     "name": "Cyclospora",
+     "kind": "parasite",
+     "regional_relevance": "Occasionally linked to bagged salad mixes.",
+     "likelihood": "low",
+     "outlook": "Seasonal peak has passed.",
+     "what_the_farm_does": null,
+     "source": "CDC, Cyclosporiasis",
+     "url": "https://www.cdc.gov/cyclosporiasis/"
+    }
+   ],
+   "nutrition": {
+    "serving": "2 cups shredded",
+    "serving_g": 94,
+    "per_serving": {
+     "kcal": 16,
+     "protein_g": 1.2,
+     "fat_g": 0.3,
+     "saturated_fat_g": 0,
+     "carbs_g": 3.1,
+     "fiber_g": 2,
+     "sugars_g": 1.1,
+     "sodium_mg": 8,
+     "cholesterol_mg": 0,
+     "vitamin_c_mg": 4,
+     "iron_mg": 0.9,
+     "calcium_mg": 31,
+     "potassium_mg": 232
+    }
+   },
+   "allergens": [],
+   "gluten_free": true,
+   "dietary": [
+    "vegan",
+    "halal",
+    "kosher"
+   ]
+  },
+  {
+   "id": "eggs-meadowlark",
+   "barcode": "0850001000042",
+   "sample": true,
+   "name": "Pasture-Raised Eggs",
+   "tagline": "A dozen large brown eggs.",
+   "emoji": "🥚",
+   "category": "eggs",
+   "food_group": "protein",
+   "price_usd": 6.79,
+   "badges": [
+    "Pasture-raised",
+    "Certified Humane",
+    "Non-GMO feed"
+   ],
+   "farm": {
+    "name": "Meadowlark Poultry (sample)",
+    "city": "Lancaster",
+    "state": "Pennsylvania",
+    "country": "USA",
+    "lat": 40.0379,
+    "lon": -76.3055,
+    "acres": 60,
+    "markets": [
+     "Lancaster Central Market"
+    ],
+    "about": "Mobile coops moved across pasture twice a week."
+   },
+   "origin": [
+    {
+     "label": "Farm",
+     "value": "Meadowlark Poultry, Lancaster County, Pennsylvania",
+     "evidence": "verified",
+     "source": "Producer account + state egg handler list"
+    },
+    {
+     "label": "Packed",
+     "value": "15 Sep 2026",
+     "evidence": "document",
+     "source": "Pack record",
+     "date": "2026-09-15"
+    }
+   ],
+   "soil": [],
+   "water": [
+    {
+     "label": "Source",
+     "value": "Municipal water",
+     "evidence": "declared"
+    },
+    {
+     "label": "Last test",
+     "value": "Utility report: no violations",
+     "evidence": "verified",
+     "source": "Public water system report",
+     "date": "2026-07-01"
+    }
+   ],
+   "feed": [
+    {
+     "label": "Feed",
+     "value": "Non-GMO layer ration plus pasture forage",
+     "evidence": "document",
+     "source": "Feed mill invoices",
+     "date": "2026-08-30"
+    },
+    {
+     "label": "Outdoor time",
+     "value": "Dawn to dusk, weather permitting",
+     "evidence": "declared"
+    }
+   ],
+   "animal_welfare": [
+    {
+     "label": "Space per bird",
+     "value": "108 sq ft of pasture per hen",
+     "evidence": "verified",
+     "source": "Certified Humane listing"
+    },
+    {
+     "label": "Coop size",
+     "value": "Four mobile coops, 480 sq ft each",
+     "evidence": "document",
+     "source": "Farm plan"
+    }
+   ],
+   "health_history": [
+    {
+     "label": "Flock health",
+     "value": "Vaccinated for Salmonella Enteritidis; vet visit 3 Sep 2026",
+     "evidence": "document",
+     "source": "Vet report",
+     "date": "2026-09-03"
+    },
+    {
+     "label": "Antibiotics",
+     "value": "None",
+     "evidence": "declared"
+    }
+   ],
+   "certifications": [
+    {
+     "label": "Certified Humane",
+     "value": "Pasture-raised standard",
+     "evidence": "verified",
+     "source": "Certifier listing"
+    },
+    {
+     "label": "FDA Egg Safety Rule",
+     "value": "SE prevention plan on file",
+     "evidence": "document",
+     "source": "Farm record"
+    }
+   ],
+   "safety": [
+    {
+     "label": "Recalls",
+     "value": "No FDA recall found for this farm",
+     "evidence": "verified",
+     "source": "openFDA food enforcement search",
+     "url": "https://open.fda.gov/apis/food/enforcement/",
+     "date": "2026-09-19"
+    },
+    {
+     "label": "Environmental Salmonella test",
+     "value": "Negative",
+     "evidence": "document",
+     "source": "Lab report",
+     "date": "2026-08-20"
+    }
+   ],
+   "hazards": [
+    {
+     "name": "Salmonella Enteritidis",
+     "kind": "bacteria",
+     "regional_relevance": "Can be inside clean, uncracked eggs anywhere in the US; refrigeration and cooking control it.",
+     "likelihood": "low",
+     "outlook": "Steady year-round.",
+     "what_the_farm_does": "Vaccinated flock and environmental testing under the FDA Egg Safety Rule.",
+     "source": "FDA, Egg Safety",
+     "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+    }
+   ],
+   "nutrition": {
+    "serving": "1 large egg",
+    "serving_g": 50,
+    "per_serving": {
+     "kcal": 72,
+     "protein_g": 6.3,
+     "fat_g": 4.8,
+     "saturated_fat_g": 1.6,
+     "carbs_g": 0.4,
+     "fiber_g": 0,
+     "sugars_g": 0.2,
+     "sodium_mg": 71,
+     "cholesterol_mg": 186,
+     "vitamin_c_mg": 0,
+     "iron_mg": 0.9,
+     "calcium_mg": 28,
+     "potassium_mg": 69
+    }
+   },
+   "allergens": [
+    "eggs"
+   ],
+   "gluten_free": true,
+   "dietary": [
+    "vegetarian",
+    "halal",
+    "kosher"
+   ]
+  },
+  {
+   "id": "salmon-cold-bay",
+   "barcode": "0850001000059",
+   "sample": true,
+   "name": "Wild Sockeye Salmon Fillet",
+   "tagline": "Wild-caught, frozen at sea.",
+   "emoji": "🐟",
+   "category": "fish",
+   "food_group": "protein",
+   "price_usd": 14.99,
+   "badges": [
+    "Wild-caught"
+   ],
+   "farm": {
+    "name": "Cold Bay Fisheries (sample)",
+    "city": "Dillingham",
+    "state": "Alaska",
+    "country": "USA",
+    "lat": 59.0397,
+    "lon": -158.4575,
+    "markets": [],
+    "about": "Bristol Bay gillnet fleet co-op."
+   },
+   "origin": [
+    {
+     "label": "Fishery",
+     "value": "Bristol Bay, Alaska - wild caught",
+     "evidence": "declared"
+    },
+    {
+     "label": "Vessel and landing",
+     "value": "Not provided",
+     "evidence": "missing"
+    }
+   ],
+   "soil": [],
+   "water": [
+    {
+     "label": "Waters",
+     "value": "Bristol Bay, Bering Sea",
+     "evidence": "declared"
+    }
+   ],
+   "feed": [
+    {
+     "label": "Wild or farmed",
+     "value": "Wild-caught",
+     "evidence": "declared"
+    }
+   ],
+   "animal_welfare": [],
+   "health_history": [],
+   "certifications": [
+    {
+     "label": "Sustainability certification",
+     "value": "Not provided",
+     "evidence": "missing"
+    }
+   ],
+   "safety": [
+    {
+     "label": "Heavy metals",
+     "value": "Mercury: not tested for this lot",
+     "evidence": "missing"
+    },
+    {
+     "label": "Recalls",
+     "value": "No FDA recall found for this company",
+     "evidence": "verified",
+     "source": "openFDA food enforcement search",
+     "url": "https://open.fda.gov/apis/food/enforcement/",
+     "date": "2026-09-19"
+    }
+   ],
+   "hazards": [
+    {
+     "name": "Anisakis (herring worm)",
+     "kind": "parasite",
+     "regional_relevance": "Common in wild Pacific salmon; freezing to -4 F for 7 days or cooking kills it.",
+     "likelihood": "moderate",
+     "outlook": "Steady; depends on the catch, not the season.",
+     "what_the_farm_does": "Frozen at sea.",
+     "source": "FDA, Fish and Fishery Products Hazards and Controls Guidance",
+     "url": "https://www.fda.gov/food/seafood-guidance-documents-regulatory-information/fish-and-fishery-products-hazards-and-controls"
+    },
+    {
+     "name": "Mercury",
+     "kind": "heavy_metal",
+     "regional_relevance": "Salmon is on the FDA/EPA Best Choices list - among the lowest-mercury fish.",
+     "likelihood": "low",
+     "outlook": "Stable.",
+     "what_the_farm_does": null,
+     "source": "FDA/EPA, Advice about Eating Fish",
+     "url": "https://www.fda.gov/food/consumers/advice-about-eating-fish"
+    }
+   ],
+   "nutrition": {
+    "serving": "3 oz cooked",
+    "serving_g": 85,
+    "per_serving": {
+     "kcal": 133,
+     "protein_g": 23,
+     "fat_g": 4.7,
+     "saturated_fat_g": 0.8,
+     "carbs_g": 0,
+     "fiber_g": 0,
+     "sugars_g": 0,
+     "sodium_mg": 78,
+     "cholesterol_mg": 52,
+     "vitamin_c_mg": 0,
+     "iron_mg": 0.4,
+     "calcium_mg": 9,
+     "potassium_mg": 370
+    }
+   },
+   "allergens": [
+    "fish"
+   ],
+   "gluten_free": true,
+   "dietary": [
+    "halal",
+    "kosher"
+   ],
+   "production_method": "wild_caught"
+  },
+  {
+   "id": "trout-clear-springs",
+   "barcode": "0850001000097",
+   "sample": true,
+   "name": "Farm-Raised Rainbow Trout Fillets",
+   "tagline": "Raised in spring-fed raceways.",
+   "emoji": "🐟",
+   "category": "fish",
+   "food_group": "protein",
+   "price_usd": 11.49,
+   "production_method": "farm_raised",
+   "badges": [
+    "Farm-raised",
+    "BAP certified",
+    "No antibiotics this lot"
+   ],
+   "farm": {
+    "name": "Clear Springs Trout Farm (sample)",
+    "city": "Buhl",
+    "state": "Idaho",
+    "country": "USA",
+    "lat": 42.5991,
+    "lon": -114.7595,
+    "acres": 35,
+    "markets": [
+     "Boise Farmers Market"
+    ],
+    "about": "A family fish farm on the Snake River aquifer: flow-through concrete raceways fed by cold spring water."
+   },
+   "origin": [
+    {
+     "label": "Fish farm",
+     "value": "Clear Springs Trout Farm, Twin Falls County, Idaho",
+     "evidence": "verified",
+     "source": "Producer account + state aquaculture licence list"
+    },
+    {
+     "label": "Wild or farmed",
+     "value": "Farm-raised (aquaculture), flow-through raceways",
+     "evidence": "verified",
+     "source": "State aquaculture licence"
+    },
+    {
+     "label": "Harvested",
+     "value": "12 Sep 2026 · lot CS-0912",
+     "evidence": "document",
+     "source": "Harvest and processing log",
+     "date": "2026-09-12"
+    }
+   ],
+   "soil": [],
+   "water": [
+    {
+     "label": "Source",
+     "value": "Spring water from the Snake River Plain aquifer, single pass",
+     "evidence": "document",
+     "source": "Water right and farm plan"
+    },
+    {
+     "label": "Last test",
+     "value": "Dissolved oxygen 8.1 mg/L · ammonia below detection · no coliform",
+     "evidence": "document",
+     "source": "Water lab report",
+     "date": "2026-08-25"
+    },
+    {
+     "label": "Discharge",
+     "value": "Settling basin; state discharge permit current",
+     "evidence": "verified",
+     "source": "State discharge permit record",
+     "date": "2026-06-30"
+    }
+   ],
+   "feed": [
+    {
+     "label": "Feed",
+     "value": "Pelleted trout feed: fish meal, soy, wheat, fish oil",
+     "evidence": "document",
+     "source": "Feed mill invoices",
+     "date": "2026-08-15"
+    },
+    {
+     "label": "Feed conversion",
+     "value": "About 1.2 lb of feed per lb of fish",
+     "evidence": "declared"
+    },
+    {
+     "label": "Colour additives",
+     "value": "None",
+     "evidence": "declared"
+    }
+   ],
+   "animal_welfare": [
+    {
+     "label": "Stocking density",
+     "value": "About 25 kg of fish per cubic metre of raceway",
+     "evidence": "document",
+     "source": "Farm production records",
+     "date": "2026-08-31"
+    },
+    {
+     "label": "Handling",
+     "value": "Humane percussive stunning at harvest",
+     "evidence": "declared"
+    }
+   ],
+   "health_history": [
+    {
+     "label": "Fish health",
+     "value": "Veterinary inspection 20 Aug 2026; no disease found",
+     "evidence": "document",
+     "source": "Aquatic veterinarian report",
+     "date": "2026-08-20"
+    },
+    {
+     "label": "Antibiotics",
+     "value": "None used in this lot",
+     "evidence": "document",
+     "source": "Treatment log",
+     "date": "2026-09-12"
+    },
+    {
+     "label": "Parasite checks",
+     "value": "Gill and skin checks monthly; none found this season",
+     "evidence": "declared"
+    }
+   ],
+   "certifications": [
+    {
+     "label": "Best Aquaculture Practices",
+     "value": "Farm certified",
+     "evidence": "verified",
+     "source": "Certifier listing"
+    },
+    {
+     "label": "Country of origin",
+     "value": "Product of USA, farm-raised (required on fish labels)",
+     "evidence": "verified",
+     "source": "USDA country-of-origin labeling rule for fish, 7 CFR Part 60"
+    }
+   ],
+   "safety": [
+    {
+     "label": "Heavy metals",
+     "value": "Mercury below 0.05 ppm in the last lot tested",
+     "evidence": "document",
+     "source": "Lab report",
+     "date": "2026-07-10"
+    },
+    {
+     "label": "Recalls",
+     "value": "No FDA recall found for this farm",
+     "evidence": "verified",
+     "source": "openFDA food enforcement search",
+     "url": "https://open.fda.gov/apis/food/enforcement/",
+     "date": "2026-09-19"
+    }
+   ],
+   "hazards": [
+    {
+     "name": "Gill and skin parasites (for example Ichthyophthirius)",
+     "kind": "parasite",
+     "regional_relevance": "Common in freshwater fish farms everywhere; they affect the fish, not people, and are controlled by water flow and low stocking density.",
+     "likelihood": "low",
+     "outlook": "Risk rises in warm late-summer water; spring-fed raceways stay cold year-round.",
+     "what_the_farm_does": "Monthly gill and skin checks; single-pass spring water.",
+     "source": "USDA APHIS, Aquaculture health",
+     "url": "https://www.aphis.usda.gov/livestock-poultry-disease/aquaculture"
+    },
+    {
+     "name": "Mercury",
+     "kind": "heavy_metal",
+     "regional_relevance": "Farm-raised trout eat formulated feed and are among the lowest-mercury fish; trout is on the FDA/EPA Best Choices list.",
+     "likelihood": "low",
+     "outlook": "Stable.",
+     "what_the_farm_does": "Tests a lot each quarter.",
+     "source": "FDA/EPA, Advice about Eating Fish",
+     "url": "https://www.fda.gov/food/consumers/advice-about-eating-fish"
+    }
+   ],
+   "nutrition": {
+    "serving": "3 oz cooked",
+    "serving_g": 85,
+    "per_serving": {
+     "kcal": 143,
+     "protein_g": 20,
+     "fat_g": 6.3,
+     "saturated_fat_g": 1.4,
+     "carbs_g": 0,
+     "fiber_g": 0,
+     "sugars_g": 0,
+     "sodium_mg": 51,
+     "cholesterol_mg": 59,
+     "vitamin_c_mg": 2,
+     "iron_mg": 0.3,
+     "calcium_mg": 26,
+     "potassium_mg": 381
+    }
+   },
+   "allergens": [
+    "fish"
+   ],
+   "gluten_free": true,
+   "dietary": [
+    "halal",
+    "kosher"
+   ]
+  },
+  {
+   "id": "milk-clover-hill",
+   "barcode": "0850001000066",
+   "sample": true,
+   "name": "Whole Milk, Grass-Fed",
+   "tagline": "Half gallon, pasteurized.",
+   "emoji": "🥛",
+   "category": "dairy",
+   "food_group": "dairy",
+   "price_usd": 5.29,
+   "badges": [
+    "Grass-fed",
+    "rBST-free"
+   ],
+   "farm": {
+    "name": "Clover Hill Dairy (sample)",
+    "city": "Wooster",
+    "state": "Ohio",
+    "country": "USA",
+    "lat": 40.8051,
+    "lon": -81.9351,
+    "acres": 220,
+    "markets": [
+     "Wooster Farmers Market"
+    ],
+    "about": "Sixty Jersey cows on pasture."
+   },
+   "origin": [
+    {
+     "label": "Dairy",
+     "value": "Clover Hill Dairy, Wayne County, Ohio",
+     "evidence": "declared"
+    },
+    {
+     "label": "Bottling plant",
+     "value": "Plant code 39-118",
+     "evidence": "verified",
+     "source": "FDA Interstate Milk Shippers list",
+     "date": "2026-09-19"
+    }
+   ],
+   "soil": [],
+   "water": [
+    {
+     "label": "Source",
+     "value": "Farm well",
+     "evidence": "declared"
+    },
+    {
+     "label": "Last test",
+     "value": "Bacteria: none detected; nitrate 3 mg/L",
+     "evidence": "document",
+     "source": "Water lab report",
+     "date": "2026-05-09"
+    }
+   ],
+   "feed": [
+    {
+     "label": "Grass-fed",
+     "value": "Pasture Apr-Oct, hay and baleage in winter",
+     "evidence": "declared"
+    },
+    {
+     "label": "Grazing time",
+     "value": "About 16 hours a day in season",
+     "evidence": "declared"
+    }
+   ],
+   "animal_welfare": [
+    {
+     "label": "Pasture per cow",
+     "value": "1.8 acres",
+     "evidence": "declared"
+    }
+   ],
+   "health_history": [
+    {
+     "label": "Herd health",
+     "value": "Monthly vet visits; somatic cell count 140,000",
+     "evidence": "document",
+     "source": "DHIA report",
+     "date": "2026-08-31"
+    },
+    {
+     "label": "Antibiotics",
+     "value": "Treated cows milked separately; every tanker tested",
+     "evidence": "document",
+     "source": "Plant record",
+     "date": "2026-09-15"
+    }
+   ],
+   "certifications": [
+    {
+     "label": "Grade A permit",
+     "value": "Current",
+     "evidence": "verified",
+     "source": "State dairy inspection"
+    }
+   ],
+   "safety": [
+    {
+     "label": "Recalls",
+     "value": "No FDA recall found",
+     "evidence": "verified",
+     "source": "openFDA food enforcement search",
+     "url": "https://open.fda.gov/apis/food/enforcement/",
+     "date": "2026-09-19"
+    }
+   ],
+   "hazards": [
+    {
+     "name": "Listeria and other raw-milk pathogens",
+     "kind": "bacteria",
+     "regional_relevance": "Controlled by pasteurization; this product is pasteurized.",
+     "likelihood": "low",
+     "outlook": "Stable.",
+     "what_the_farm_does": "Pasteurized at a Grade A plant.",
+     "source": "FDA, The Dangers of Raw Milk",
+     "url": "https://www.fda.gov/food/buy-store-serve-safe-food/dangers-raw-milk-unpasteurized-milk-can-pose-serious-health-risk"
+    }
+   ],
+   "nutrition": {
+    "serving": "1 cup",
+    "serving_g": 244,
+    "per_serving": {
+     "kcal": 149,
+     "protein_g": 7.7,
+     "fat_g": 7.9,
+     "saturated_fat_g": 4.6,
+     "carbs_g": 11.7,
+     "fiber_g": 0,
+     "sugars_g": 12.3,
+     "sodium_mg": 105,
+     "cholesterol_mg": 24,
+     "vitamin_c_mg": 0,
+     "iron_mg": 0.1,
+     "calcium_mg": 276,
+     "potassium_mg": 322
+    }
+   },
+   "allergens": [
+    "milk"
+   ],
+   "gluten_free": true,
+   "dietary": [
+    "vegetarian",
+    "halal",
+    "kosher"
+   ]
+  },
+  {
+   "id": "apples-orchard-lane",
+   "barcode": "0850001000073",
+   "sample": true,
+   "name": "Gala Apples",
+   "tagline": "3 lb bag.",
+   "emoji": "🍎",
+   "category": "produce",
+   "food_group": "fruits",
+   "price_usd": 4.99,
+   "badges": [],
+   "farm": {
+    "name": "Orchard Lane Packing (sample)",
+    "city": "Yakima",
+    "state": "Washington",
+    "country": "USA",
+    "lat": 46.6021,
+    "lon": -120.5059,
+    "markets": [],
+    "about": ""
+   },
+   "origin": [
+    {
+     "label": "Packer",
+     "value": "Orchard Lane Packing, Yakima, Washington",
+     "evidence": "declared"
+    },
+    {
+     "label": "Orchard",
+     "value": "Not provided - fruit pooled from several growers",
+     "evidence": "missing"
+    }
+   ],
+   "soil": [
+    {
+     "label": "Fertilizers",
+     "value": "Not provided",
+     "evidence": "missing"
+    },
+    {
+     "label": "Pesticides",
+     "value": "Not provided",
+     "evidence": "missing"
+    }
+   ],
+   "water": [
+    {
+     "label": "Source",
+     "value": "Not provided",
+     "evidence": "missing"
+    }
+   ],
+   "feed": [],
+   "animal_welfare": [],
+   "health_history": [],
+   "certifications": [
+    {
+     "label": "Certifications",
+     "value": "None provided",
+     "evidence": "missing"
+    }
+   ],
+   "safety": [
+    {
+     "label": "Recalls",
+     "value": "No FDA recall found for this packer",
+     "evidence": "verified",
+     "source": "openFDA food enforcement search",
+     "url": "https://open.fda.gov/apis/food/enforcement/",
+     "date": "2026-09-19"
+    }
+   ],
+   "hazards": [
+    {
+     "name": "Listeria monocytogenes",
+     "kind": "bacteria",
+     "regional_relevance": "Linked in the past to apple packing-line equipment rather than to orchards.",
+     "likelihood": "low",
+     "outlook": "Stable.",
+     "what_the_farm_does": null,
+     "source": "FDA, Listeria (Listeriosis)",
+     "url": "https://www.fda.gov/food/foodborne-pathogens/listeria-listeriosis"
+    }
+   ],
+   "nutrition": {
+    "serving": "1 medium apple",
+    "serving_g": 182,
+    "per_serving": {
+     "kcal": 95,
+     "protein_g": 0.5,
+     "fat_g": 0.3,
+     "saturated_fat_g": 0,
+     "carbs_g": 25,
+     "fiber_g": 4.4,
+     "sugars_g": 19,
+     "sodium_mg": 2,
+     "cholesterol_mg": 0,
+     "vitamin_c_mg": 8.4,
+     "iron_mg": 0.2,
+     "calcium_mg": 11,
+     "potassium_mg": 195
+    }
+   },
+   "allergens": [],
+   "gluten_free": true,
+   "dietary": [
+    "vegan",
+    "halal",
+    "kosher"
+   ]
+  },
+  {
+   "id": "bread-stone-mill",
+   "barcode": "0850001000080",
+   "sample": true,
+   "name": "Whole Wheat Sandwich Bread",
+   "tagline": "Stone-milled regional wheat.",
+   "emoji": "🍞",
+   "category": "grain",
+   "food_group": "grains",
+   "price_usd": 5.99,
+   "badges": [
+    "Whole grain",
+    "Regional wheat"
+   ],
+   "farm": {
+    "name": "Stone Mill Bakery and Farm (sample)",
+    "city": "Ithaca",
+    "state": "New York",
+    "country": "USA",
+    "lat": 42.444,
+    "lon": -76.5019,
+    "acres": 95,
+    "markets": [
+     "Ithaca Farmers Market"
+    ],
+    "about": "Grows and mills its own hard red wheat."
+   },
+   "origin": [
+    {
+     "label": "Farm and mill",
+     "value": "Stone Mill, Tompkins County, New York",
+     "evidence": "declared"
+    },
+    {
+     "label": "Wheat lot",
+     "value": "HRW-26-04",
+     "evidence": "document",
+     "source": "Mill log",
+     "date": "2026-08-05"
+    }
+   ],
+   "soil": [
+    {
+     "label": "Organic matter",
+     "value": "3.1 %",
+     "evidence": "document",
+     "source": "Soil lab report",
+     "date": "2026-04-14"
+    },
+    {
+     "label": "Fertilizers",
+     "value": "Composted manure; no synthetic nitrogen",
+     "evidence": "declared"
+    },
+    {
+     "label": "Pesticides",
+     "value": "No glyphosate pre-harvest",
+     "evidence": "declared"
+    }
+   ],
+   "water": [
+    {
+     "label": "Source",
+     "value": "Rain-fed; no irrigation",
+     "evidence": "declared"
+    }
+   ],
+   "feed": [],
+   "animal_welfare": [],
+   "health_history": [],
+   "certifications": [
+    {
+     "label": "Kosher",
+     "value": "Certified",
+     "evidence": "verified",
+     "source": "Certifier listing"
+    }
+   ],
+   "safety": [
+    {
+     "label": "Mycotoxin test (DON)",
+     "value": "0.4 ppm - under the 1 ppm FDA advisory level",
+     "evidence": "document",
+     "source": "Lab report",
+     "date": "2026-08-06"
+    },
+    {
+     "label": "Recalls",
+     "value": "No FDA recall found",
+     "evidence": "verified",
+     "source": "openFDA food enforcement search",
+     "url": "https://open.fda.gov/apis/food/enforcement/",
+     "date": "2026-09-19"
+    }
+   ],
+   "hazards": [
+    {
+     "name": "Vomitoxin (DON), a grain mould toxin",
+     "kind": "toxin",
+     "regional_relevance": "Fusarium head blight, a fungal disease of wheat, can leave the toxin DON in grain after wet weather at flowering; it occurs in the Northeast. This lot tested at 0.4 ppm, under the FDA advisory level of 1 ppm for finished wheat products.",
+     "likelihood": "low",
+     "outlook": "Depends on rain during next June's flowering.",
+     "what_the_farm_does": "Tests every lot for DON.",
+     "source": "FDA, Guidance on DON in wheat products",
+     "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents"
+    }
+   ],
+   "nutrition": {
+    "serving": "1 slice",
+    "serving_g": 43,
+    "per_serving": {
+     "kcal": 110,
+     "protein_g": 5,
+     "fat_g": 1.5,
+     "saturated_fat_g": 0.3,
+     "carbs_g": 20,
+     "fiber_g": 3,
+     "sugars_g": 3,
+     "sodium_mg": 190,
+     "cholesterol_mg": 0,
+     "vitamin_c_mg": 0,
+     "iron_mg": 1.1,
+     "calcium_mg": 40,
+     "potassium_mg": 95
+    }
+   },
+   "allergens": [
+    "wheat"
+   ],
+   "gluten_free": false,
+   "dietary": [
+    "vegan",
+    "kosher"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,138 @@
+{
+  "about": "Opt-in rancher profiles. status=sample profiles are FICTIONAL demo data and must render under a full-width SAMPLE DATA banner. Never add a real ranch without its written consent recorded in consent{}. processors[].check is computed from plants.json by the team's data-check script (kept in the team's working repository) - it describes the PLANT RECORD, not the ranch-plant relationship.",
+  "schema": 1,
+  "ranchers": [
+    {
+      "slug": "sample-ridge-cattle",
+      "status": "sample",
+      "sample_banner": "SAMPLE DATA - fictional ranch created for this demo. No real ranch has made these statements. The plant named below is real and has no connection to this sample.",
+      "ranch": {
+        "name": "Sample Ridge Cattle Co. (SAMPLE)",
+        "county": "Butler County",
+        "state": "PA"
+      },
+      "consent": {
+        "given_by": "Plattr team (fictional profile)",
+        "role": "sample",
+        "method": "n/a",
+        "given_at": "2026-09-19",
+        "terms_version": "demo",
+        "scopes": [
+          "publish_profile",
+          "list_on_plant_page",
+          "qr"
+        ]
+      },
+      "last_confirmed": "2026-09-19",
+      "inspection_path": "usda",
+      "processors": [
+        {
+          "est": "M9714",
+          "role": "both",
+          "declared_at": "2026-09-19",
+          "check": {
+            "result": "cattle_slaughter",
+            "snapshot": "2026-09-19",
+            "source": "USDA FSIS MPI Directory + Establishment Demographic Data"
+          }
+        }
+      ],
+      "story": {
+        "text": "We run about forty head of Angus-cross cattle on rotated pasture. Calves are born here in spring and stay on this ground until they leave for the processor, twenty minutes up the road.",
+        "by": "Jane Sample, owner (fictional)",
+        "date": "2026-09-19"
+      },
+      "claims": [
+        {
+          "key": "grass_fed",
+          "words": "100% grass-fed and grass-finished. Hay from our own fields in winter.",
+          "answers": {
+            "ever_fed_grain": "no",
+            "ever_in_feedlot": "no"
+          },
+          "declared_at": "2026-09-19",
+          "level": "rancher_declared",
+          "evidence": []
+        },
+        {
+          "key": "no_added_hormones",
+          "words": "No implants, ever.",
+          "answers": {
+            "implants": "no"
+          },
+          "declared_at": "2026-09-19",
+          "level": "rancher_declared",
+          "evidence": []
+        },
+        {
+          "key": "raised_without_antibiotics",
+          "words": "No antibiotics. A sick animal gets treated and is sold separately.",
+          "answers": {
+            "ionophores": "no"
+          },
+          "declared_at": "2026-09-19",
+          "level": "rancher_declared",
+          "evidence": []
+        },
+        {
+          "key": "born_raised_usa",
+          "words": "Born and raised on this farm in Butler County.",
+          "declared_at": "2026-09-19",
+          "level": "rancher_declared",
+          "evidence": []
+        },
+        {
+          "key": "breed",
+          "words": "Angus-cross.",
+          "declared_at": "2026-09-19",
+          "level": "rancher_declared",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "slug": "sample-hollow-farm",
+      "status": "sample",
+      "sample_banner": "SAMPLE DATA - fictional ranch created for this demo. No real ranch has made these statements.",
+      "ranch": {
+        "name": "Sample Hollow Farm (SAMPLE)",
+        "county": "Upshur County",
+        "state": "WV"
+      },
+      "consent": {
+        "given_by": "Plattr team (fictional profile)",
+        "role": "sample",
+        "method": "n/a",
+        "given_at": "2026-09-19",
+        "terms_version": "demo",
+        "scopes": [
+          "publish_profile"
+        ]
+      },
+      "last_confirmed": "2026-09-19",
+      "inspection_path": "custom_exempt",
+      "processors": [],
+      "story": {
+        "text": "We sell whole, half and quarter shares. You buy the animal; the butcher cuts it for you.",
+        "by": "John Sample, owner (fictional)",
+        "date": "2026-09-19"
+      },
+      "claims": [
+        {
+          "key": "pasture_raised",
+          "words": "On pasture from April to November, grain-finished for the last ninety days.",
+          "declared_at": "2026-09-19",
+          "level": "rancher_declared",
+          "evidence": []
+        },
+        {
+          "key": "local",
+          "words": "Every share is sold within an hour's drive.",
+          "declared_at": "2026-09-19",
+          "level": "rancher_declared",
+          "evidence": []
+        }
+      ]
+    }
+  ]
+}
