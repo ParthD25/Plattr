@@ -2,7 +2,7 @@
 
 **Know what's behind every bite.**
 
-**Live app: [plattr-parthd25s-projects.vercel.app](https://plattr-parthd25s-projects.vercel.app)** · one-click demo accounts at `/demo-account`
+**Live app: [[plattr-parthd25s-projects.vercel.app](https://plattr.replit.app)](https://plattr.replit.app)** · one-click demo accounts at `/demo-account`
 
 Scan a food's QR code or barcode and read its **product passport**: farm origin, soil, water, feed, welfare, animal health, certifications, safety testing, a hazard outlook for the region, and nutrition. Every passport gets a transparent 0-100 **Plattr score** (A+ to F), and every fact carries a text label saying how well it is backed up, so a producer's own claim never passes as a verified record.
 
